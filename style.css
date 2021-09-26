@@ -1,0 +1,529 @@
+html, body{
+	padding: 0;
+	margin: 0;
+/*	background-color:#B9DFFF;*/
+	background-image: url("pictures/b.png");
+	background-attachment: fixed;
+	font-family: Arial, Helvetica, serif;
+	height: 100%;
+}
+body{
+display: flex;
+flex-direction: column;
+}
+content{
+flex: 1 0 auto;
+}
+
+a{
+	text-decoration: none;	
+}
+
+.link a{
+	color: #000;
+	font-style: italic;	
+}
+
+.link a:hover{
+	border-bottom: 2px solid #000;
+}
+
+head{
+	/*position: fixed;*/
+}
+
+.head{
+	height: 65px;
+	background: #0A3A62;
+	width: 100%;
+}
+.lang{ 
+	height: 20px;
+	display: flex;
+	justify-content: flex-end;
+	width: 100%;
+
+}
+
+.lang1{ 
+	font-size: 14px;
+	font-style: italic;
+	color: white;
+	text-decoration: none; 
+	margin-right: 25px;
+	
+}
+
+.logo{   
+	display: flex;
+	justify-content: center;
+}
+
+.graficlogo{
+	padding: 5px;
+	max-width: 100%;	
+	box-sizing: border-box;
+	
+}
+
+nav{
+	width: 90%;
+	height: 40px;
+	margin: auto;
+	margin-top: 25px;
+}
+.topnav{
+	font-size: 18px;
+	font-weight: bold;
+	margin-top: 10px;
+	background-color: ;	
+	display: flex;
+	justify-content: space-around;
+}
+.topnav a{
+	color: #0A3A62;
+	text-align: center;
+	padding: 14px 16px;
+	font-size: 30px;
+}
+
+.topnav a:hover {
+	border-bottom: 2px solid #0A3A62;
+}
+
+.topnav .icon{
+	display: none;
+
+}
+
+.bsl-info{ 
+	margin: 0 auto;
+	width: 75%;
+	height: auto;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	opacity: 0.8;
+
+}
+
+.stl{ 
+	font-size: 18px;
+	color: black;
+	line-height: 150%;
+	padding: 15px 15px 15px 15px;
+	box-shadow: 10px 10px 10px rgba(0,0,0,.5);
+	border-radius: 5px;
+	background-color: white;
+	
+}
+
+.stl:hover {
+	opacity: 1;
+}
+
+footer { 
+	flex: 0 0 auto;
+	width: 100%;
+	height: 120px;	
+	font-size: 16px;
+	color: #FFFFFF;
+	margin-top: 40px;
+	background-color: #0A3A62;
+	opacity: 0.95;
+	font-weight: 300;
+	display: flex;
+	justify-content: center;
+	
+}
+
+.adr{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 15px; 
+	background: ;
+	width: 90%;
+	height: 100px;	
+	
+}
+
+.adr1 { 
+	font-size: 14px;
+		
+}
+.adr2 { 
+	font-size: 14px;
+	
+}
+.adr3 {
+	font-size: 14px;
+}
+
+.adm-logo{
+	width: 75%;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 60px;		
+	opacity: 0.8;
+}
+
+.adm-sched{
+	margin: 0 auto;
+	width: 75%;
+	height: 530px;
+	padding: 10px 10px 10px 10px; 
+	margin-top: 50px;
+	background-color: ;
+	opacity: 0.8;
+}
+.adm_map{
+	max-width: 100%;
+}
+
+.adm-sched1{
+	width: 27%;
+	height: 520px;
+	margin-top: 10px;		
+	margin-left: 25px;		
+	background-color: ;
+	color: black;	
+	font-size: 18px;
+	float: left;
+}
+.adm-exp{
+	margin: 0 auto;
+	width: 75%;
+	height: auto;
+	margin-top: 50px;
+	opacity: 0.8;
+	padding-left: 25px;	
+}
+
+.adm-imp{
+	margin: 0 auto;
+	width: 75%;
+	height: auto;
+	margin-top: 50px;
+	opacity: 0.8;
+	padding-left: 25px;
+}
+
+.cntct{	
+	line-height: 120%;
+	width: 75%;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 40px;		
+	background: ;
+	opacity: 0.8;
+	display: flex;
+	justify-content: center;
+}
+.cntcts{
+	padding-top: 10px;	
+	padding-bottom: 10px;
+	width: 95%;
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	flex-wrap: wrap;
+}
+
+.cntct_list{
+	width: 100%;
+	background: ;
+}
+
+.cntct_name{
+	width: 30%;
+	margin: 15px; 
+	background: ;
+}
+
+
+.docs{
+	line-height: 120%; 
+	width: 40%;
+	height: auto;
+	background: ;
+	color: #000;
+	margin: 0 auto;
+	margin-top: 40px;
+	opacity: 0.8;
+}
+
+
+.acol{
+max-width: 100%;
+
+}
+.ndl{
+max-width: 100%;
+}
+
+.bsl_logo{
+	max-width: 100%;
+}
+.acol:hover{
+	opacity:0.5;
+}
+.ndl:hover{
+	opacity:0.5;
+}
+
+.ndl-info{
+	margin: 0 auto;
+	width: 80%;
+	height: auto;
+	margin-top: 60px;
+	opacity: 0.9;
+}
+.logo_ndl{
+	max-width: 100%;
+}
+.ndl-sched{
+	margin: 0 auto;
+	line-height: 120%;
+	width: 80%;
+	height: 640px;
+	margin-top: 50px;		
+	background-color: ;
+	opacity: 0.9;
+}
+.ndl_map{
+	max-width: 100%;
+}
+.ndl-sched1{
+	width: 30%;
+	height: 640px;
+	margin-top: 10px;		
+	margin-left: 25px;		
+	background-color: ;
+	color: black;	
+	font-size: 18px;
+	float: left;
+	background-color: ;
+}
+.ndl-exp{ 
+	margin: 0 auto;
+	width: 80%;
+	height: auto;
+	margin-top: 20px;		
+	opacity: 0.9;
+	padding-left: 25px;
+}
+.ndl-imp{ 
+	margin: 0 auto;
+	width: 80%;
+	height: auto;
+	margin-top: 30px;
+	opacity: 0.9;
+	padding-left: 25px;
+}
+
+.name{
+font-weight: 700;
+}
+.department{
+font-style: italic;		
+}
+	.phone{
+		font-style: normal;	
+}
+	.email{
+		text-decoration: underline;	
+}
+
+	.a123{
+		line-height: 120%; 
+		width: 470px;
+		height: 290px;
+		background: ;
+		color: #000;
+		margin: 0 auto;
+		margin-top: 40px;
+}
+@media screen and (max-width: 1295px){
+	.adm-sched{
+		width: 75%;
+		height: 980px;
+	}
+	.adm-sched1{
+		width: 90%;
+		
+	}
+	.ndl-sched{
+		width: 80%;
+		height: 1340px;
+	}
+	.ndl-sched1{
+		width: 90%;
+		height: 640px;
+}
+	
+	
+@media screen and (max-width: 1024px){
+	.bsl-info { 
+		width: 95%;
+		height: auto;
+	}
+	.adr3{
+		display: none;
+	}
+	.adm-logo{
+		width: 90%;
+		height: auto;
+	}
+
+	.adm-sched{
+		width: 90%;
+		height: 990px;
+		margin-top: 50px;
+	}
+	.adm-sched1{
+		width: 90%;
+		height: 520px;
+		margin-top: 10px;		
+		margin-left: 25px;		
+		background-color: ;
+		color: black;	
+		font-size: 18px;
+	}
+	.adm-exp{
+		width: 90%;
+		height: auto;
+	}
+	.adm-imp{
+		width: 90%;
+		height: auto;
+	}
+	.ndl-info{
+		width: 90%;
+		height: auto;
+	}
+	.ndl-sched{
+		width: 90%;
+		height: 1220px;
+	}
+	.ndl-sched1{
+		width: 95%;
+		height: 600px;
+		margin-top: 10px;		
+		margin-left: 25px;		
+		background-color: ;
+		color: black;	
+		font-size: 18px;
+		float: left;
+		background-color: ;
+	}
+	.ndl-exp{ 
+		width: 90%;
+		height: auto;
+	}
+	.ndl-imp{
+		width: 90%;
+		height: auto;
+	}
+	.docs{
+		width: 70%;
+		height: auto;
+	}
+	.cntct{
+		width: 90%;
+
+}
+	.cntct_name{
+		width: 45%;
+		margin-top: 10px; 
+		
+}
+
+
+@media screen and (max-width: 768px){
+	.adr{
+		max-width: 100%;
+	}
+	.adr2, .adr3, .acolgraf, .ndlgraf{
+		display: none;
+	
+	}
+
+	.topnav{
+		
+		min-width: 290px;
+	}
+
+	.bsl-info { 
+		margin-top: 70px;
+		width: 90%;
+		height: auto;
+		min-width: 350px;
+	}
+
+
+	.adm-logo{
+		width: 90%;
+		height: auto;
+		min-width: 350px;
+	}
+	.adm-sched{
+		width: 90%;
+		height: 980px;
+		margin-top: 50px;
+		min-width: 350px;
+	}
+	.adm-sched1{
+		width: 90%;
+		height: 470px;
+		margin-top: 10px;		
+		margin-left: 25px;		
+		background-color: ;
+		color: black;	
+		font-size: 18px;
+		
+	}
+
+	.adm-exp{
+		width: 90%;
+		height: auto;
+		min-width: 350px;
+	}
+	.adm-imp{
+		width: 90%;
+		height: auto;
+		min-width: 350px;
+	}
+	.docs{
+		width: 90%;
+		height: auto;
+		min-width: 360px;
+	}
+	.cntct{
+		width: 90%;
+		min-width: 350px;
+	}
+	.ndl-info{
+		height: auto;
+		min-width: 350px;
+	}
+	.ndl-sched{
+		min-width: 350px;
+		height: 1240px;
+	}
+	.ndl-exp{
+		min-width: 350px;
+		height: auto;
+	}
+	.ndl-imp{
+		min-width: 350px;
+		height: auto;
+	}
+	.cntct_name{
+		width: 95%;
+		margin: 15px; 
+		background: ;
+
+
+
+
+}			
+
